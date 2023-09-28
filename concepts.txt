@@ -1,0 +1,26 @@
+NEAT will randomly add nodes
+and will favor lesser nodes for problem
+
+[Inputs]
+1. bird.y 
+2. top pipe
+3. bottom pipe
+
+[Outputs]
+Jump or not
+
+[Activation Function]
+Tanh [-1,1]
+Jump if > 0.5 else Not Jump
+
+[Population Size]
+Number of Birds for each Generation
+Higher for complicated problems
+
+[Fitness Function]
+The most important one
+Scoring the Birds
+In this case, the further the birds go, the better
+Distance
+
+[Max Generations]
